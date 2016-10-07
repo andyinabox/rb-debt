@@ -1,0 +1,21 @@
+{
+  "name": "rb-debt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo-less index.js --live --open --less style.less -- -t hbsfy | garnish"
+  },
+  "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "budo-less": "^1.0.1",
+    "garnish": "^5.2.0",
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.7.0"
+  },
+  "dependencies": {
+    "jquery-browserify": "^1.8.1",
+    "lodash": "^4.16.4"
+  }
+}

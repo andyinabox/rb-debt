@@ -1,0 +1,32 @@
+body {
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 5vw;
+}
+
+
+.column {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	top: 0;
+}
+
+#col1 {
+	left: 0;
+}
+
+#col2 {
+	left: 50%;
+}
+
+
+.cell {
+	border: 1px solid #ddd;
+	padding: 1vw;
+	
+	&.header {
+		font-weight: bold;
+	}
+}
