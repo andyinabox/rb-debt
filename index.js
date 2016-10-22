@@ -55,22 +55,22 @@ function render(columns) {
 		columns: columns[1]
 	}
 
-	var $headers = $('<header>');
-	$headers
-		.attr('id', 'headers')
-		.appendTo('body');
+	// var $headers = $('<header>');
+	// $headers
+	// 	.attr('id', 'headers')
+	// 	.appendTo('body');
 
-	$header1 = $('<div>')
-		.addClass('cell')
-		.addClass('header')
-		.html(header1)
-		.appendTo($headers);
+	// $header1 = $('<div>')
+	// 	.addClass('cell')
+	// 	.addClass('header')
+	// 	.html(header1)
+	// 	.appendTo($headers);
 
-	$header2 = $('<div>')
-		.addClass('cell')
-		.addClass('header')
-		.html(header2)
-		.appendTo($headers);
+	// $header2 = $('<div>')
+	// 	.addClass('cell')
+	// 	.addClass('header')
+	// 	.html(header2)
+	// 	.appendTo($headers);
 
 	var $column1 = $('<div>');
 	$column1
